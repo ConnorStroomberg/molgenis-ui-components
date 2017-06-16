@@ -172,4 +172,4 @@ npm run build
 
 ## License
 
-[GLP-3](http://opensource.org/licenses/GLP-3)
+[GPL-3](https://opensource.org/licenses/gpl-3.0.html)
