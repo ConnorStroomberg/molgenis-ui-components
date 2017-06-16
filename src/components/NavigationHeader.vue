@@ -6,7 +6,7 @@
 
 <script>
     export default {
-      name: 'header',
+      name: 'navigation-header',
       data: function () {
         return {
           message: 'Test'

@@ -1,7 +1,7 @@
 {
   "name": "molgenis-ui-components",
   "description": "Vue UI components for the MOLGENIS software pockage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "MOLGENIS",
     "vue"

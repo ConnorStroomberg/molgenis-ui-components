@@ -1,14 +1,14 @@
-import header from './components/header.vue'
+import NavigationHeader from './components/NavigationHeader.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('header', header)
+  Vue.component('navigation-header', NavigationHeader)
   /* -- Add more components here -- */
 }
 
 // Expose the components
 export {
-  header
+  NavigationHeader
   /* -- Add more components here -- */
 }
 
