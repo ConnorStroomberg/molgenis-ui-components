@@ -2,8 +2,8 @@
   <div id="footer">
     <p class="text-muted text-center small">
       <em>
-        <span v-if="additionalMessage">{{additionalMessage}}</span>
-        <br/>This database was generated using the open source <a :href="'https://www.molgenis.org'">MOLGENIS
+        <span v-if="additionalMessage">{{additionalMessage}}<br/></span>
+        This database was generated using the open source <a :href="'https://www.molgenis.org'">MOLGENIS
         database generator</a> <span v-if="version">{{version}}</span> <span v-if="buildDate">built
         on {{buildDate}}</span>.<br/>Please cite <a
           :href="'https://www.ncbi.nlm.nih.gov/pubmed/21210979'">Swertz et al (2010)</a> or <a
