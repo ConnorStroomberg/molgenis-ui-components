@@ -38,7 +38,7 @@
         </ul>
         <!--right side menu items-->
         <ul class="nav navbar-nav">
-          <li class="nav-link">
+          <li class="nav-item">
             <!--Add language dropdown-->
             <div id="language-select-box" class="navbar-right"></div>
           </li>
