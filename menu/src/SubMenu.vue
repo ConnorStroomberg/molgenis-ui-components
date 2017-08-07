@@ -2,7 +2,7 @@
   <li v-bind:class="['nav-item', 'dropdown', selected?'show':'' ]">
 
     <a class="nav-link dropdown-toggle" v-bind:id="id" data-toggle="dropdown"
-       aria-haspopup="true" v-bind:aria-expanded="selected" v-on:click="callback(index)">
+       aria-haspopup="true" v-bind:aria-expanded="selected" v-on:click="callback(index)" href="#">
       {{label}}
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
