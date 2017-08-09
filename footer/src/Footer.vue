@@ -28,9 +28,9 @@
     name: 'footer',
     data: function () {
       return {
-        additionalMessage: window.molgenisfooter.additionalMessage,
-        version: window.molgenisfooter.version,
-        buildDate: window.molgenisfooter.buildDate
+        additionalMessage: window.molgenisFooter.additionalMessage,
+        version: window.molgenisFooter.version,
+        buildDate: window.molgenisFooter.buildDate
       }
     }
   }
