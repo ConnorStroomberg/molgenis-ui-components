@@ -5,7 +5,7 @@
   <title>header</title>
 </head>
 <body>
-<div id="molgenis-menu"></div>
+<div id="molgenis-menu" data-molgenis-menu.menu="menu"></div>
 <script>
   const menu =
     {
@@ -126,7 +126,7 @@
       }, {'id': 'useraccount', 'label': 'Account', 'href': 'useraccount', 'type': 'PLUGIN'}]
     }
 
-  window.__INITIAL_STATE__ = {
+  window.molgenismenu = {
     menu: menu,
     topLogo: 'https://molgenis03.target.rug.nl/logos/DEBRegister_header_v3_color-b.png',
     navBarLogo: 'http://localhost:8080/img/logo_molgenis_small.png',
