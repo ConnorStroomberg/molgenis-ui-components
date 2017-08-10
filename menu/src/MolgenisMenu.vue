@@ -6,7 +6,7 @@
                          height="150"></a>
       </div>
     </template>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
               aria-controls="navbarNavDropdown" aria-expanded="false"
               aria-label="Toggle navigation" v-on:click="toggleNavbar">
