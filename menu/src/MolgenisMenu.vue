@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="fixed-top">
     <template v-if="topLogo">
       <div id="TopLogo">
         <a href="/"><img :src="topLogo" alt='' border='0'
                          height="150"></a>
       </div>
     </template>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
               aria-controls="navbarNavDropdown" aria-expanded="false"
               aria-label="Toggle navigation" v-on:click="toggleNavbar">
@@ -14,7 +14,7 @@
       </button>
 
       <a v-if="navBarLogo" class="navbar-brand" :href="'/menu/main/'+menu.items[0].href"><img
-        :src="navBarLogo"></a>
+        :src="navBarLogo" height="30"></a>
       <a v-else class="navbar-brand" href="#"></a>
 
       <div :class="{collapse:collapse, 'navbar-collapse':collapse}" id="navbarNavDropdown">
