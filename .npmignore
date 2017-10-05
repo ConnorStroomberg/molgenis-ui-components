@@ -1,9 +1,0 @@
-.idea
-config
-.babelrc
-.eslintignore
-.eslintrc.js
-.gitignore
-.npmignore
-index.js
-*.iml
