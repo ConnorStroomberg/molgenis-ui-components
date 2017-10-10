@@ -1,7 +1,7 @@
 <template>
   <div class="fixed-top">
     <header v-if="topLogo" id="top-logo-vue-banner">
-      <a href="/"></a><img id="logo-top" :src="topLogo" alt="" border="0" height="200px">
+      <a href="/"></a><img id="logo-top" :src="topLogo" alt="" border="0">
     </header>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
