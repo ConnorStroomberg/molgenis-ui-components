@@ -103,7 +103,9 @@
         document.getElementById('logout-form').submit()
       },
       login: function () {
-        document.getElementById('login-modal').classList.add('show')
+        const modal = document.getElementById('login-modal')
+        modal.classList.add('show')
+        modal.style.display = 'inline'
       }
     },
     mounted: function () {
