@@ -1,11 +1,8 @@
 <template>
   <div class="fixed-top">
-    <template v-if="topLogo">
-      <div id="TopLogo">
-        <a href="/"><img :src="topLogo" alt='' border='0'
-                         height="150"></a>
-      </div>
-    </template>
+    <header v-if="topLogo" id="top-logo-vue-banner">
+      <a href="/"><img id="logo-top" :src="topLogo" alt="" border="0"></a>
+    </header>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
               aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -63,6 +60,7 @@
 
 <script>
   import SubMenu from './SubMenu'
+
   export default {
     components: {SubMenu},
     name: 'molgenis-menu',
@@ -105,7 +103,9 @@
         document.getElementById('logout-form').submit()
       },
       login: function () {
-        document.getElementById('login-modal').classList.add('show')
+        const modal = document.getElementById('login-modal')
+        modal.classList.add('show')
+        modal.style.display = 'inline'
       }
     },
     mounted: function () {
