@@ -3,7 +3,7 @@
     <header v-if="topLogo" id="top-logo-vue-banner">
       <a href="/"><img id="logo-top" :src="topLogo" alt="" border="0"></a>
     </header>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-expand-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
               aria-controls="navbarNavDropdown" aria-expanded="false"
               aria-label="Toggle navigation" v-on:click="toggleNavbar">
