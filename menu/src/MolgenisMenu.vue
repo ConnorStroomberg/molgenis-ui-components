@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav mr-auto">
           <template v-for="(item, index) in menu.items">
-            <li v-if="item.type === 'PLUGIN'"
+            <li v-if="item.type === 'PLUGIN' && item.id !== 'home'"
                 :class="['nav-item', {'active': isSelectedPlugin(item.id)}]">
 
               <a class="nav-link" :href="'/menu/main/'+item.href">
@@ -26,7 +26,7 @@
               </a>
             </li>
 
-            <li class="nav-item dropdown" v-else>
+            <li class="nav-item dropdown" v-else-if="item.id !== 'home'">
               <a class="nav-link dropdown-toggle" :id="item.id"
                  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ item.label }}
