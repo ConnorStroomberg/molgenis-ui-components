@@ -1,7 +1,7 @@
 {
-  "name": "header",
+  "name": "menu",
   "version": "1.0.0",
-  "description": "Molgenis footer",
+  "description": "Molgenis menu component",
   "author": "Bart Charbon <b.charbon@umcg.nl>",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
     "@molgenis/molgenis-api-client": "^1.1.0",
     "@molgenis/molgenis-i18n-js": "^0.0.5",
     "font-awesome": "^4.7.0",
-    "vue": "^2.2.6"
+    "vue": "^2.5.13"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

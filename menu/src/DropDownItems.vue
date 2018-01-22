@@ -10,7 +10,7 @@
         <h5 class="dropdown-header" :class="'menu-depth-'+depth">
           <b>{{item.label}}</b>
         </h5>
-        <drop-down-items :parent="item" :items="item.items" :depth="depth + 1"></drop-down-items>
+        <drop-down-items :parent="item" :items="item.items" :depth="depth + 1"/>
       </span>
     </template>
   </div>
