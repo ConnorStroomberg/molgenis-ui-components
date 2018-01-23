@@ -44,21 +44,19 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" :href=helpLink.href target='_blank'>
+              <a class="nav-link" :href="helpLink.href" target="_blank">
                 {{ helpLink.label }}
               </a>
             </li>
 
-            <li v-if="authenticated" class="nav-link">
+            <li class="nav-item">
               <form id="logout-form" class="navbar-form" method="post" action="/logout">
-                <button id="signout-button" type="button" class="btn btn-light" @click="logout">
+                <button v-if="authenticated" id="signout-button" type="button" class="btn btn-outline-secondary" @click="logout">
                   Sign out
                 </button>
-              </form>
-            </li>
 
-            <li v-else class="nav-item">
-              <a class='nav-link btn btn-light' @click="login">Sign in</a>
+                <button v-else class='btn btn btn-outline-primary' type="button" @click="login">Sign in</button>
+              </form>
             </li>
           </ul>
         </div>
