@@ -19,7 +19,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/login': {
+      '/plugin': {
         target: 'http://localhost:8080'
       },
       '/api': {
