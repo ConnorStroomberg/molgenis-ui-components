@@ -39,7 +39,7 @@
         </ul>
 
         <ul class="navbar-nav justify-content">
-          <li v-if="authenticated" class="nav-item">
+          <li v-if="authenticated && languages.length > 1" class="nav-item">
             <form id="language-form" class="navbar-form">
               <select class="nav-link" v-model="selectedLanguage" @change="handleLanguageSelect">
                 <option v-for="language in languages" :value="language.id" :selected="language.id === selectedLanguage">
