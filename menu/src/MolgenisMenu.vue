@@ -6,7 +6,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
       <a v-if="navBarLogo" class="navbar-brand" :href="'/menu/main/'+menu.items[0].href">
-        <img :src="navBarLogo" height="30">
+        <img :src="navBarLogo" height="20">
       </a>
       <a v-else class="navbar-brand" href="#"></a>
 
@@ -58,7 +58,7 @@
           </li>
 
           <li class="nav-item">
-            <form id="logout-form" class="navbar-form" method="post" action="/logout">
+            <form id="logout-form" class="form-inline" method="post" action="/logout">
               <button v-if="authenticated" id="signout-button" type="button" class="btn btn-outline-secondary"
                       @click="logout">
                 Sign out
