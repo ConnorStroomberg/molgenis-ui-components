@@ -21,7 +21,7 @@
         additionalMessage: window.molgenisFooter.additionalMessage,
         version: window.molgenisFooter.version,
         buildDate: window.molgenisFooter.buildDate,
-        molgenisSite: 'https://www.molgenis.org',
+        molgenisSite: 'http://www.molgenis.org',
         pubmed1: 'https://www.ncbi.nlm.nih.gov/pubmed/21210979',
         pubmed2: 'https://www.ncbi.nlm.nih.gov/pubmed/17297480'
       }
