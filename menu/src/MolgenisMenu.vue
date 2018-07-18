@@ -64,7 +64,7 @@
                 Sign out
               </button>
 
-              <button v-else class='btn btn btn-outline-primary' type="button" @click="login">Sign in</button>
+              <a v-else class='btn btn-outline-primary' href="/login">Sign in</a>
             </form>
           </li>
         </ul>
@@ -104,11 +104,6 @@
           this.logoutFunction()
         }
         document.getElementById('logout-form').submit()
-      },
-      login () {
-        const modal = document.getElementById('login-modal')
-        modal.classList.add('show')
-        modal.style.display = 'inline'
       },
       handleLanguageSelect () {
         api.post('/plugin/useraccount/language/update?languageCode=' + this.selectedLanguage).then(() => {
